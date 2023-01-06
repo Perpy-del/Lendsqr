@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# LENDSQR ASSESSMENT
+### Project
+Lendsqr Assessment Test for Frontend Engineering Candidates.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Description
+This is a project to assess skills as a Frontend Engineer, assessing for the following amongst many others:
+- Application of best practice in design and architecture.
+- Unit testing (positive and negative test scenarios)
+- Commit history and messages on GitHub.
+- Quality of README documentation
+- Folders and files organization.
+- Variable and function naming, conventions and consistency.
+- Semantic use of paths and resource naming.
+- Design responsiveness to media types.
 
-## Available Scripts
+#### About Lendsqr
+Lendsqr provides Lending-As-A-Service solutions to lenders, loan agencies or organisations to launch their lending service in the shortest time possible, scaling across multiple channels at the lowest cost. This test application creates a dashboard that shows a borrowers' list pulling data from a mock API with 500 records using local Storage or indexedDB. 
 
-In the project directory, you can run:
+#### Dependencies/Tools
+The dependencies and tools used include:
+- React with TypeScript:
+Typescript is a strongly typed language that adds additional syntax to Javascript in order to catch errors early.
+** Installing React--
+[Create React App](https://github.com/facebook/create-react-app).
+
+Ensure that node and npm is installed first. From your terminal:
+
+```bash
+node -v
+```
+
+```bash
+npm -v
+```
+
+Installing node and npm:
+
+```bash
+$ nvm use 16
+Now using node v16.9.1 (npm v7.21.1)
+$ node -v
+v16.9.1
+$ nvm use 14
+Now using node v14.18.0 (npm v6.14.15)
+$ node -v
+v14.18.0
+$ nvm install 12
+Now using node v12.22.6 (npm v6.14.5)
+$ node -v
+v12.22.6
+```
+
+Then install react using the same terminal:
+
+```bash
+npx create-react-app lendsqr
+```
+
+lensqr being the name of the app in this case.
+
+Then:
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Now installing TypeScript:
 
-### `npm test`
+```bash
+npm i typescript
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React Router Dom
+React router helps with routing between pages in your browser.
 
-### `npm run build`
+Installing react-router-dom:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm i react-router-dom
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Sass
+SASS is Syntactically Awesome StyleSheets. Sass just like css helps with styling but sass has added features non-existent in CSS such as nesting, mixins, inheritance creating and being able to import your own color styles, font styles, etc. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Installing sass
 
-### `npm run eject`
+```bash
+npm i sass
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Accessing Lendsqr Assessment Project on GitHub
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+On your terminal,
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+https://github.com/Perpy-del/Lendsqr.git
+```
+![image of Lendsqr on GitHub](C:\Users\USER\Desktop\lendqr github.jpg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Live Project
+Link to the live project below:
+```bash
 
-## Learn More
+```
+![image of Lendsqr live](C:\Users\USER\Desktop\lendqr.jpg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### References
+- [LENDSQR](Lendsqr.com) - Learning more about Lendsqr
+- [NPM](https://www.npmjs.com/) Installing node packages using node package manager
+- [Learning SASS](sass.lang.com/guide)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### License
+MIT
