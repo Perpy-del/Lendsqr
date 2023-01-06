@@ -60,7 +60,9 @@ lensqr being the name of the app in this case.
 
 Then:
 
-### `npm start`
+```bash
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -98,17 +100,17 @@ https://github.com/Perpy-del/Lendsqr.git
 ```
 ![image of Lendsqr on GitHub](C:\Users\USER\Desktop\lendqr github.jpg)
 
-#### Live Project
+### Live Project
 Link to the live project below:
 ```bash
 
 ```
 ![image of Lendsqr live](C:\Users\USER\Desktop\lendqr.jpg)
 
-#### References
+### References
 - [LENDSQR](Lendsqr.com) - Learning more about Lendsqr
 - [NPM](https://www.npmjs.com/) Installing node packages using node package manager
 - [Learning SASS](sass.lang.com/guide)
 
-#### License
+### License
 MIT
